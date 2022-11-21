@@ -2,7 +2,7 @@ def get_configs():
     train_params = {
         "device": "cuda",
         "max_epoch": 100,
-        "output_dir": "/outputs/allAugs_AdamW_lr0.01_WeightDecay5e-4_batchSize128"
+        "output_dir": "output"
     }
 
     dataset_params = {
