@@ -14,13 +14,13 @@ class Logger:
         self.log.setLevel(logging.INFO)
 
         # add log to file handler
-        time_now = str(datetime.now()).split('-')[0]
+        time_now = str(datetime.now()).split('.')[0]
         log_file_path = os.path.join(output_dir, f"training_log_{time_now}.txt")
         handler = logging.FileHandler(log_file_path, 'w+', 'utf-8')
         handler.setFormatter(
             logging.Formatter(
-                fmt='%(asctime)s %(message)s',
-                datefmt='%m-%d-%Y %I-%M-%S %p'
+                fmt = '%(asctime)s %(message)s',
+                datefmt ='%m/%d/%Y %I:%M:%S %p'
             )
         )
         self.log.addHandler(handler)
