@@ -1,3 +1,4 @@
+#resnet2- # of block - [2, 3, 3]
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -99,7 +100,7 @@ class ResNet(nn.Module):
 
 
 def ResNet18():
-    return ResNet(BasicBlock, [2, 2, 2, 2])
+    return ResNet(BasicBlock, [2, 3, 3, 2])
 
 if __name__ == "__main__":
     net = ResNet18()
