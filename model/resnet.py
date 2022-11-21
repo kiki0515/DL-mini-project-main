@@ -19,7 +19,7 @@ class BasicBlock(nn.Module):
         if stride != 1 or in_planes != self.expansion*planes:
             self.shortcut = nn.Sequential(
                 nn.Conv2d(in_planes, self.expansion*planes,
-                          kernel_size=3, stride=stride, bias=False),
+                          kernel_size=1, stride=stride, bias=False),
                 nn.BatchNorm2d(self.expansion*planes)
             )
 
@@ -92,7 +92,7 @@ class ResNet(nn.Module):
         out = self.layer2(out)
         out = self.layer3(out)
         #out = self.layer4(out)
-        out = F.avg_pool2d(out, 8)
+        out = F.avg_pool2d(out, 4)
         out = out.view(out.size(0), -1)
         out = self.linear(out)
         return out
