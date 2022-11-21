@@ -2,13 +2,12 @@ def get_configs():
     train_params = {
         "device": "cuda",
         "max_epoch": 100,
-        "output_dir": "/outputs/allAugs_AdamW_lr0.01_WeightDecay5e-4_batchSize128"
+        "output_dir": "output"
     }
 
     dataset_params = {
         "train_bs": 128,
         "test_bs": 256,
-        #"test_bs": 128,
     }
 
     model_params = {
@@ -24,7 +23,7 @@ def get_configs():
         "lr": 0.01,
         "type": "AdamW",
         "kwargs": {
-            "weight_decay": 5e-4,
+            "weight_decay": 0.1,
             "amsgrad": True
         }
     }
