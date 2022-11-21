@@ -1,0 +1,63 @@
+11/21/2022 04:57:31 PM ----------------------------------------------------------------------------------------------------
+11/21/2022 04:57:31 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+11/21/2022 04:57:31 PM conv1.weight                                                           torch.Size([64, 3, 3, 3])      1728                           1                             
+11/21/2022 04:57:31 PM ----------------------------------------------------------------------------------------------------
+11/21/2022 04:57:31 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+11/21/2022 04:57:31 PM bn1.weight                                                             torch.Size([64])               64                             1                             
+11/21/2022 04:57:31 PM bn1.bias                                                               torch.Size([64])               64                             1                             
+11/21/2022 04:57:31 PM ----------------------------------------------------------------------------------------------------
+11/21/2022 04:57:31 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+11/21/2022 04:57:31 PM layer1.0.conv1.weight                                                  torch.Size([64, 64, 3, 3])     36864                          1                             
+11/21/2022 04:57:31 PM layer1.0.bn1.weight                                                    torch.Size([64])               64                             1                             
+11/21/2022 04:57:31 PM layer1.0.bn1.bias                                                      torch.Size([64])               64                             1                             
+11/21/2022 04:57:31 PM layer1.0.conv2.weight                                                  torch.Size([64, 64, 3, 3])     36864                          1                             
+11/21/2022 04:57:31 PM layer1.0.bn2.weight                                                    torch.Size([64])               64                             1                             
+11/21/2022 04:57:31 PM layer1.0.bn2.bias                                                      torch.Size([64])               64                             1                             
+11/21/2022 04:57:31 PM layer1.1.conv1.weight                                                  torch.Size([64, 64, 3, 3])     36864                          1                             
+11/21/2022 04:57:31 PM layer1.1.bn1.weight                                                    torch.Size([64])               64                             1                             
+11/21/2022 04:57:31 PM layer1.1.bn1.bias                                                      torch.Size([64])               64                             1                             
+11/21/2022 04:57:31 PM layer1.1.conv2.weight                                                  torch.Size([64, 64, 3, 3])     36864                          1                             
+11/21/2022 04:57:31 PM layer1.1.bn2.weight                                                    torch.Size([64])               64                             1                             
+11/21/2022 04:57:31 PM layer1.1.bn2.bias                                                      torch.Size([64])               64                             1                             
+11/21/2022 04:57:31 PM ----------------------------------------------------------------------------------------------------
+11/21/2022 04:57:31 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+11/21/2022 04:57:31 PM layer2.0.conv1.weight                                                  torch.Size([128, 64, 3, 3])    73728                          1                             
+11/21/2022 04:57:31 PM layer2.0.bn1.weight                                                    torch.Size([128])              128                            1                             
+11/21/2022 04:57:31 PM layer2.0.bn1.bias                                                      torch.Size([128])              128                            1                             
+11/21/2022 04:57:31 PM layer2.0.conv2.weight                                                  torch.Size([128, 128, 3, 3])   147456                         1                             
+11/21/2022 04:57:31 PM layer2.0.bn2.weight                                                    torch.Size([128])              128                            1                             
+11/21/2022 04:57:31 PM layer2.0.bn2.bias                                                      torch.Size([128])              128                            1                             
+11/21/2022 04:57:31 PM layer2.0.shortcut.0.weight                                             torch.Size([128, 64, 1, 1])    8192                           1                             
+11/21/2022 04:57:31 PM layer2.0.shortcut.1.weight                                             torch.Size([128])              128                            1                             
+11/21/2022 04:57:31 PM layer2.0.shortcut.1.bias                                               torch.Size([128])              128                            1                             
+11/21/2022 04:57:31 PM layer2.1.conv1.weight                                                  torch.Size([128, 128, 3, 3])   147456                         1                             
+11/21/2022 04:57:31 PM layer2.1.bn1.weight                                                    torch.Size([128])              128                            1                             
+11/21/2022 04:57:31 PM layer2.1.bn1.bias                                                      torch.Size([128])              128                            1                             
+11/21/2022 04:57:31 PM layer2.1.conv2.weight                                                  torch.Size([128, 128, 3, 3])   147456                         1                             
+11/21/2022 04:57:31 PM layer2.1.bn2.weight                                                    torch.Size([128])              128                            1                             
+11/21/2022 04:57:31 PM layer2.1.bn2.bias                                                      torch.Size([128])              128                            1                             
+11/21/2022 04:57:31 PM ----------------------------------------------------------------------------------------------------
+11/21/2022 04:57:31 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+11/21/2022 04:57:31 PM layer3.0.conv1.weight                                                  torch.Size([256, 128, 3, 3])   294912                         1                             
+11/21/2022 04:57:31 PM layer3.0.bn1.weight                                                    torch.Size([256])              256                            1                             
+11/21/2022 04:57:31 PM layer3.0.bn1.bias                                                      torch.Size([256])              256                            1                             
+11/21/2022 04:57:31 PM layer3.0.conv2.weight                                                  torch.Size([256, 256, 3, 3])   589824                         1                             
+11/21/2022 04:57:31 PM layer3.0.bn2.weight                                                    torch.Size([256])              256                            1                             
+11/21/2022 04:57:31 PM layer3.0.bn2.bias                                                      torch.Size([256])              256                            1                             
+11/21/2022 04:57:31 PM layer3.0.shortcut.0.weight                                             torch.Size([256, 128, 1, 1])   32768                          1                             
+11/21/2022 04:57:31 PM layer3.0.shortcut.1.weight                                             torch.Size([256])              256                            1                             
+11/21/2022 04:57:31 PM layer3.0.shortcut.1.bias                                               torch.Size([256])              256                            1                             
+11/21/2022 04:57:31 PM layer3.1.conv1.weight                                                  torch.Size([256, 256, 3, 3])   589824                         1                             
+11/21/2022 04:57:31 PM layer3.1.bn1.weight                                                    torch.Size([256])              256                            1                             
+11/21/2022 04:57:31 PM layer3.1.bn1.bias                                                      torch.Size([256])              256                            1                             
+11/21/2022 04:57:31 PM layer3.1.conv2.weight                                                  torch.Size([256, 256, 3, 3])   589824                         1                             
+11/21/2022 04:57:31 PM layer3.1.bn2.weight                                                    torch.Size([256])              256                            1                             
+11/21/2022 04:57:31 PM layer3.1.bn2.bias                                                      torch.Size([256])              256                            1                             
+11/21/2022 04:57:31 PM ----------------------------------------------------------------------------------------------------
+11/21/2022 04:57:31 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+11/21/2022 04:57:31 PM linear.weight                                                          torch.Size([10, 256])          2560                           1                             
+11/21/2022 04:57:31 PM linear.bias                                                            torch.Size([10])               10                             1                             
+11/21/2022 04:57:31 PM ----------------------------------------------------------------------------------------------------
+11/21/2022 04:57:31 PM Total Number of Paramters: 2777674
+11/21/2022 04:57:31 PM ----------------------------------------------------------------------------------------------------
+11/21/2022 04:57:32 PM NumExpr defaulting to 2 threads.
