@@ -1,0 +1,574 @@
+----------------------------------------------------------------------------------------------------
+Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+conv1.weight                                                           torch.Size([64, 3, 3, 3])      1728                           1                             
+----------------------------------------------------------------------------------------------------
+Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+bn1.weight                                                             torch.Size([64])               64                             1                             
+bn1.bias                                                               torch.Size([64])               64                             1                             
+----------------------------------------------------------------------------------------------------
+Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+layer1.0.conv1.weight                                                  torch.Size([64, 64, 3, 3])     36864                          1                             
+layer1.0.bn1.weight                                                    torch.Size([64])               64                             1                             
+layer1.0.bn1.bias                                                      torch.Size([64])               64                             1                             
+layer1.0.conv2.weight                                                  torch.Size([64, 64, 3, 3])     36864                          1                             
+layer1.0.bn2.weight                                                    torch.Size([64])               64                             1                             
+layer1.0.bn2.bias                                                      torch.Size([64])               64                             1                             
+layer1.1.conv1.weight                                                  torch.Size([64, 64, 3, 3])     36864                          1                             
+layer1.1.bn1.weight                                                    torch.Size([64])               64                             1                             
+layer1.1.bn1.bias                                                      torch.Size([64])               64                             1                             
+layer1.1.conv2.weight                                                  torch.Size([64, 64, 3, 3])     36864                          1                             
+layer1.1.bn2.weight                                                    torch.Size([64])               64                             1                             
+layer1.1.bn2.bias                                                      torch.Size([64])               64                             1                             
+layer1.2.conv1.weight                                                  torch.Size([64, 64, 3, 3])     36864                          1                             
+layer1.2.bn1.weight                                                    torch.Size([64])               64                             1                             
+layer1.2.bn1.bias                                                      torch.Size([64])               64                             1                             
+layer1.2.conv2.weight                                                  torch.Size([64, 64, 3, 3])     36864                          1                             
+layer1.2.bn2.weight                                                    torch.Size([64])               64                             1                             
+layer1.2.bn2.bias                                                      torch.Size([64])               64                             1                             
+----------------------------------------------------------------------------------------------------
+Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+layer2.0.conv1.weight                                                  torch.Size([128, 64, 3, 3])    73728                          1                             
+layer2.0.bn1.weight                                                    torch.Size([128])              128                            1                             
+layer2.0.bn1.bias                                                      torch.Size([128])              128                            1                             
+layer2.0.conv2.weight                                                  torch.Size([128, 128, 3, 3])   147456                         1                             
+layer2.0.bn2.weight                                                    torch.Size([128])              128                            1                             
+layer2.0.bn2.bias                                                      torch.Size([128])              128                            1                             
+layer2.0.shortcut.0.weight                                             torch.Size([128, 64, 1, 1])    8192                           1                             
+layer2.0.shortcut.1.weight                                             torch.Size([128])              128                            1                             
+layer2.0.shortcut.1.bias                                               torch.Size([128])              128                            1                             
+layer2.1.conv1.weight                                                  torch.Size([128, 128, 3, 3])   147456                         1                             
+layer2.1.bn1.weight                                                    torch.Size([128])              128                            1                             
+layer2.1.bn1.bias                                                      torch.Size([128])              128                            1                             
+layer2.1.conv2.weight                                                  torch.Size([128, 128, 3, 3])   147456                         1                             
+layer2.1.bn2.weight                                                    torch.Size([128])              128                            1                             
+layer2.1.bn2.bias                                                      torch.Size([128])              128                            1                             
+layer2.2.conv1.weight                                                  torch.Size([128, 128, 3, 3])   147456                         1                             
+layer2.2.bn1.weight                                                    torch.Size([128])              128                            1                             
+layer2.2.bn1.bias                                                      torch.Size([128])              128                            1                             
+layer2.2.conv2.weight                                                  torch.Size([128, 128, 3, 3])   147456                         1                             
+layer2.2.bn2.weight                                                    torch.Size([128])              128                            1                             
+layer2.2.bn2.bias                                                      torch.Size([128])              128                            1                             
+----------------------------------------------------------------------------------------------------
+Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+layer3.0.conv1.weight                                                  torch.Size([256, 128, 3, 3])   294912                         1                             
+layer3.0.bn1.weight                                                    torch.Size([256])              256                            1                             
+layer3.0.bn1.bias                                                      torch.Size([256])              256                            1                             
+layer3.0.conv2.weight                                                  torch.Size([256, 256, 3, 3])   589824                         1                             
+layer3.0.bn2.weight                                                    torch.Size([256])              256                            1                             
+layer3.0.bn2.bias                                                      torch.Size([256])              256                            1                             
+layer3.0.shortcut.0.weight                                             torch.Size([256, 128, 1, 1])   32768                          1                             
+layer3.0.shortcut.1.weight                                             torch.Size([256])              256                            1                             
+layer3.0.shortcut.1.bias                                               torch.Size([256])              256                            1                             
+layer3.1.conv1.weight                                                  torch.Size([256, 256, 3, 3])   589824                         1                             
+layer3.1.bn1.weight                                                    torch.Size([256])              256                            1                             
+layer3.1.bn1.bias                                                      torch.Size([256])              256                            1                             
+layer3.1.conv2.weight                                                  torch.Size([256, 256, 3, 3])   589824                         1                             
+layer3.1.bn2.weight                                                    torch.Size([256])              256                            1                             
+layer3.1.bn2.bias                                                      torch.Size([256])              256                            1                             
+layer3.2.conv1.weight                                                  torch.Size([256, 256, 3, 3])   589824                         1                             
+layer3.2.bn1.weight                                                    torch.Size([256])              256                            1                             
+layer3.2.bn1.bias                                                      torch.Size([256])              256                            1                             
+layer3.2.conv2.weight                                                  torch.Size([256, 256, 3, 3])   589824                         1                             
+layer3.2.bn2.weight                                                    torch.Size([256])              256                            1                             
+layer3.2.bn2.bias                                                      torch.Size([256])              256                            1                             
+----------------------------------------------------------------------------------------------------
+Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+linear.weight                                                          torch.Size([10, 256])          2560                           1                             
+linear.bias                                                            torch.Size([10])               10                             1                             
+----------------------------------------------------------------------------------------------------
+Total Number of Paramters: 4327754
+----------------------------------------------------------------------------------------------------
+Downloading https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz to ./data/cifar-10-python.tar.gz
+100% 170498071/170498071 [00:19<00:00, 8821479.37it/s]
+Extracting ./data/cifar-10-python.tar.gz to ./data
+Files already downloaded and verified
+----------------------------------------------------------------------------------------------------
+Training Dataset Size: 45000
+Training Dataset Total Batch#: 352
+----------------------------------------------------------------------------------------------------
+Dev Dataset Size: 5000
+Dev Dataset Total Batch#: 20
+Test Dataset Size: 10000
+Test Dataset Total Batch#: 40
+----------------------------------------------------------------------------------------------------
+Trainer Kwargs:
+
+device                         cuda
+max_epoch                      100
+output_dir                     /outputs/allAugs_AdamW_lr0.01_WeightDecay5e-4_batchSize128
+----------------------------------------------------------------------------------------------------
+Optimizer: AdamW
+----------------------------------------------------------------------------------------------------
+Callbacks: EarlyStopping
+
+save_final_model               True
+patience                       5
+threshold                      0.1
+mode                           max
+----------------------------------------------------------------------------------------------------
+Epoch 0 - iter 34/352 - 10% Avg loss 2.31109
+Epoch 0 - iter 69/352 - 10% Avg loss 1.95107
+Epoch 0 - iter 104/352 - 10% Avg loss 1.94186
+Epoch 0 - iter 139/352 - 10% Avg loss 1.83053
+Epoch 0 - iter 174/352 - 10% Avg loss 1.75938
+Epoch 0 - iter 209/352 - 10% Avg loss 1.70268
+Epoch 0 - iter 244/352 - 10% Avg loss 1.65296
+Epoch 0 - iter 279/352 - 10% Avg loss 1.61435
+Epoch 0 - iter 314/352 - 10% Avg loss 1.57089
+Epoch 0 - iter 349/352 - 10% Avg loss 1.47027
+Epoch #0: Epoch Average Loss 1.77874 - Epoch Acc: 33.96667 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.59it/s]
+Eval Devset: Epoch #0: Average Loss 0.72424 - Epoch Acc: 47.16000 - Epoch Testing Time: 0.073 min(s)
+Saving new best-model with accuracy: 47.1600
+----------------------------------------------------------------------------------------------------
+Epoch 1 - iter 34/352 - 10% Avg loss 1.40441
+Epoch 1 - iter 69/352 - 10% Avg loss 1.37869
+Epoch 1 - iter 104/352 - 10% Avg loss 1.39051
+Epoch 1 - iter 139/352 - 10% Avg loss 1.29995
+Epoch 1 - iter 174/352 - 10% Avg loss 1.27578
+Epoch 1 - iter 209/352 - 10% Avg loss 1.25282
+Epoch 1 - iter 244/352 - 10% Avg loss 1.17860
+Epoch 1 - iter 279/352 - 10% Avg loss 1.17555
+Epoch 1 - iter 314/352 - 10% Avg loss 1.15747
+Epoch 1 - iter 349/352 - 10% Avg loss 1.14209
+Epoch #1: Epoch Average Loss 1.26631 - Epoch Acc: 53.85111 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.50it/s]
+Eval Devset: Epoch #1: Average Loss 0.60491 - Epoch Acc: 56.04000 - Epoch Testing Time: 0.074 min(s)
+Saving new best-model with accuracy: 56.0400
+----------------------------------------------------------------------------------------------------
+Epoch 2 - iter 34/352 - 10% Avg loss 1.07562
+Epoch 2 - iter 69/352 - 10% Avg loss 1.03905
+Epoch 2 - iter 104/352 - 10% Avg loss 0.99524
+Epoch 2 - iter 139/352 - 10% Avg loss 0.97868
+Epoch 2 - iter 174/352 - 10% Avg loss 0.97977
+Epoch 2 - iter 209/352 - 10% Avg loss 0.97456
+Epoch 2 - iter 244/352 - 10% Avg loss 0.93689
+Epoch 2 - iter 279/352 - 10% Avg loss 0.91994
+Epoch 2 - iter 314/352 - 10% Avg loss 0.89166
+Epoch 2 - iter 349/352 - 10% Avg loss 0.89319
+Epoch #2: Epoch Average Loss 0.96796 - Epoch Acc: 65.65778 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.44it/s]
+Eval Devset: Epoch #2: Average Loss 0.47892 - Epoch Acc: 66.90000 - Epoch Testing Time: 0.075 min(s)
+Saving new best-model with accuracy: 66.9000
+----------------------------------------------------------------------------------------------------
+Epoch 3 - iter 34/352 - 10% Avg loss 0.84525
+Epoch 3 - iter 69/352 - 10% Avg loss 0.87410
+Epoch 3 - iter 104/352 - 10% Avg loss 0.85153
+Epoch 3 - iter 139/352 - 10% Avg loss 0.83773
+Epoch 3 - iter 174/352 - 10% Avg loss 0.77338
+Epoch 3 - iter 209/352 - 10% Avg loss 0.81023
+Epoch 3 - iter 244/352 - 10% Avg loss 0.78619
+Epoch 3 - iter 279/352 - 10% Avg loss 0.78639
+Epoch 3 - iter 314/352 - 10% Avg loss 0.76370
+Epoch 3 - iter 349/352 - 10% Avg loss 0.73523
+Epoch #3: Epoch Average Loss 0.80583 - Epoch Acc: 71.36444 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.54it/s]
+Eval Devset: Epoch #3: Average Loss 0.43322 - Epoch Acc: 71.12000 - Epoch Testing Time: 0.073 min(s)
+Saving new best-model with accuracy: 71.1200
+----------------------------------------------------------------------------------------------------
+Epoch 4 - iter 34/352 - 10% Avg loss 0.73092
+Epoch 4 - iter 69/352 - 10% Avg loss 0.72123
+Epoch 4 - iter 104/352 - 10% Avg loss 0.71010
+Epoch 4 - iter 139/352 - 10% Avg loss 0.70014
+Epoch 4 - iter 174/352 - 10% Avg loss 0.71207
+Epoch 4 - iter 209/352 - 10% Avg loss 0.66482
+Epoch 4 - iter 244/352 - 10% Avg loss 0.66182
+Epoch 4 - iter 279/352 - 10% Avg loss 0.65139
+Epoch 4 - iter 314/352 - 10% Avg loss 0.65496
+Epoch 4 - iter 349/352 - 10% Avg loss 0.60914
+Epoch #4: Epoch Average Loss 0.68080 - Epoch Acc: 76.10444 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.51it/s]
+Eval Devset: Epoch #4: Average Loss 0.44339 - Epoch Acc: 71.98000 - Epoch Testing Time: 0.074 min(s)
+Saving new best-model with accuracy: 71.9800
+----------------------------------------------------------------------------------------------------
+Epoch 5 - iter 34/352 - 10% Avg loss 0.62683
+Epoch 5 - iter 69/352 - 10% Avg loss 0.59589
+Epoch 5 - iter 104/352 - 10% Avg loss 0.61569
+Epoch 5 - iter 139/352 - 10% Avg loss 0.56197
+Epoch 5 - iter 174/352 - 10% Avg loss 0.57952
+Epoch 5 - iter 209/352 - 10% Avg loss 0.57946
+Epoch 5 - iter 244/352 - 10% Avg loss 0.55353
+Epoch 5 - iter 279/352 - 10% Avg loss 0.58089
+Epoch 5 - iter 314/352 - 10% Avg loss 0.55686
+Epoch 5 - iter 349/352 - 10% Avg loss 0.53109
+Epoch #5: Epoch Average Loss 0.57858 - Epoch Acc: 79.61556 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.49it/s]
+Eval Devset: Epoch #5: Average Loss 0.33329 - Epoch Acc: 78.38000 - Epoch Testing Time: 0.074 min(s)
+Saving new best-model with accuracy: 78.3800
+----------------------------------------------------------------------------------------------------
+Epoch 6 - iter 34/352 - 10% Avg loss 0.50073
+Epoch 6 - iter 69/352 - 10% Avg loss 0.49363
+Epoch 6 - iter 104/352 - 10% Avg loss 0.52796
+Epoch 6 - iter 139/352 - 10% Avg loss 0.50880
+Epoch 6 - iter 174/352 - 10% Avg loss 0.51828
+Epoch 6 - iter 209/352 - 10% Avg loss 0.49846
+Epoch 6 - iter 244/352 - 10% Avg loss 0.50877
+Epoch 6 - iter 279/352 - 10% Avg loss 0.46413
+Epoch 6 - iter 314/352 - 10% Avg loss 0.47297
+Epoch 6 - iter 349/352 - 10% Avg loss 0.47323
+Epoch #6: Epoch Average Loss 0.49661 - Epoch Acc: 82.87778 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.50it/s]
+Eval Devset: Epoch #6: Average Loss 0.34192 - Epoch Acc: 77.34000 - Epoch Testing Time: 0.074 min(s)
+
+Bad Epoch. Total num bad epoch: 1
+----------------------------------------------------------------------------------------------------
+Epoch 7 - iter 34/352 - 10% Avg loss 0.43456
+Epoch 7 - iter 69/352 - 10% Avg loss 0.44514
+Epoch 7 - iter 104/352 - 10% Avg loss 0.43928
+Epoch 7 - iter 139/352 - 10% Avg loss 0.46456
+Epoch 7 - iter 174/352 - 10% Avg loss 0.46220
+Epoch 7 - iter 209/352 - 10% Avg loss 0.43913
+Epoch 7 - iter 244/352 - 10% Avg loss 0.44431
+Epoch 7 - iter 279/352 - 10% Avg loss 0.43594
+Epoch 7 - iter 314/352 - 10% Avg loss 0.45083
+Epoch 7 - iter 349/352 - 10% Avg loss 0.45793
+Epoch #7: Epoch Average Loss 0.44745 - Epoch Acc: 84.53778 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.53it/s]
+Eval Devset: Epoch #7: Average Loss 0.37562 - Epoch Acc: 76.38000 - Epoch Testing Time: 0.074 min(s)
+
+Bad Epoch. Total num bad epoch: 2
+----------------------------------------------------------------------------------------------------
+Epoch 8 - iter 34/352 - 10% Avg loss 0.39220
+Epoch 8 - iter 69/352 - 10% Avg loss 0.40146
+Epoch 8 - iter 104/352 - 10% Avg loss 0.41584
+Epoch 8 - iter 139/352 - 10% Avg loss 0.37955
+Epoch 8 - iter 174/352 - 10% Avg loss 0.42054
+Epoch 8 - iter 209/352 - 10% Avg loss 0.40795
+Epoch 8 - iter 244/352 - 10% Avg loss 0.40947
+Epoch 8 - iter 279/352 - 10% Avg loss 0.40490
+Epoch 8 - iter 314/352 - 10% Avg loss 0.40112
+Epoch 8 - iter 349/352 - 10% Avg loss 0.41096
+Epoch #8: Epoch Average Loss 0.40389 - Epoch Acc: 86.00889 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.30it/s]
+Eval Devset: Epoch #8: Average Loss 0.27168 - Epoch Acc: 82.20000 - Epoch Testing Time: 0.078 min(s)
+Saving new best-model with accuracy: 82.2000
+----------------------------------------------------------------------------------------------------
+Epoch 9 - iter 34/352 - 10% Avg loss 0.34467
+Epoch 9 - iter 69/352 - 10% Avg loss 0.35442
+Epoch 9 - iter 104/352 - 10% Avg loss 0.35556
+Epoch 9 - iter 139/352 - 10% Avg loss 0.38700
+Epoch 9 - iter 174/352 - 10% Avg loss 0.37459
+Epoch 9 - iter 209/352 - 10% Avg loss 0.36756
+Epoch 9 - iter 244/352 - 10% Avg loss 0.35352
+Epoch 9 - iter 279/352 - 10% Avg loss 0.35526
+Epoch 9 - iter 314/352 - 10% Avg loss 0.36752
+Epoch 9 - iter 349/352 - 10% Avg loss 0.35582
+Epoch #9: Epoch Average Loss 0.36139 - Epoch Acc: 87.49778 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.42it/s]
+Eval Devset: Epoch #9: Average Loss 0.25819 - Epoch Acc: 83.74000 - Epoch Testing Time: 0.075 min(s)
+Saving new best-model with accuracy: 83.7400
+----------------------------------------------------------------------------------------------------
+Epoch 10 - iter 34/352 - 10% Avg loss 0.33215
+Epoch 10 - iter 69/352 - 10% Avg loss 0.31663
+Epoch 10 - iter 104/352 - 10% Avg loss 0.32709
+Epoch 10 - iter 139/352 - 10% Avg loss 0.34632
+Epoch 10 - iter 174/352 - 10% Avg loss 0.33883
+Epoch 10 - iter 209/352 - 10% Avg loss 0.32249
+Epoch 10 - iter 244/352 - 10% Avg loss 0.33706
+Epoch 10 - iter 279/352 - 10% Avg loss 0.33726
+Epoch 10 - iter 314/352 - 10% Avg loss 0.34149
+Epoch 10 - iter 349/352 - 10% Avg loss 0.31854
+Epoch #10: Epoch Average Loss 0.33171 - Epoch Acc: 88.30000 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.53it/s]
+Eval Devset: Epoch #10: Average Loss 0.24735 - Epoch Acc: 84.20000 - Epoch Testing Time: 0.074 min(s)
+Saving new best-model with accuracy: 84.2000
+----------------------------------------------------------------------------------------------------
+Epoch 11 - iter 34/352 - 10% Avg loss 0.28531
+Epoch 11 - iter 69/352 - 10% Avg loss 0.28461
+Epoch 11 - iter 104/352 - 10% Avg loss 0.30573
+Epoch 11 - iter 139/352 - 10% Avg loss 0.31906
+Epoch 11 - iter 174/352 - 10% Avg loss 0.31280
+Epoch 11 - iter 209/352 - 10% Avg loss 0.30960
+Epoch 11 - iter 244/352 - 10% Avg loss 0.29455
+Epoch 11 - iter 279/352 - 10% Avg loss 0.31113
+Epoch 11 - iter 314/352 - 10% Avg loss 0.31485
+Epoch 11 - iter 349/352 - 10% Avg loss 0.30082
+Epoch #11: Epoch Average Loss 0.30404 - Epoch Acc: 89.50889 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.49it/s]
+Eval Devset: Epoch #11: Average Loss 0.23703 - Epoch Acc: 84.72000 - Epoch Testing Time: 0.074 min(s)
+Saving new best-model with accuracy: 84.7200
+----------------------------------------------------------------------------------------------------
+Epoch 12 - iter 34/352 - 10% Avg loss 0.25439
+Epoch 12 - iter 69/352 - 10% Avg loss 0.25417
+Epoch 12 - iter 104/352 - 10% Avg loss 0.29292
+Epoch 12 - iter 139/352 - 10% Avg loss 0.25663
+Epoch 12 - iter 174/352 - 10% Avg loss 0.27878
+Epoch 12 - iter 209/352 - 10% Avg loss 0.27608
+Epoch 12 - iter 244/352 - 10% Avg loss 0.29199
+Epoch 12 - iter 279/352 - 10% Avg loss 0.28200
+Epoch 12 - iter 314/352 - 10% Avg loss 0.29769
+Epoch 12 - iter 349/352 - 10% Avg loss 0.28440
+Epoch #12: Epoch Average Loss 0.27708 - Epoch Acc: 90.45333 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.56it/s]
+Eval Devset: Epoch #12: Average Loss 0.26355 - Epoch Acc: 83.98000 - Epoch Testing Time: 0.073 min(s)
+
+Bad Epoch. Total num bad epoch: 1
+----------------------------------------------------------------------------------------------------
+Epoch 13 - iter 34/352 - 10% Avg loss 0.23606
+Epoch 13 - iter 69/352 - 10% Avg loss 0.25233
+Epoch 13 - iter 104/352 - 10% Avg loss 0.23482
+Epoch 13 - iter 139/352 - 10% Avg loss 0.25151
+Epoch 13 - iter 174/352 - 10% Avg loss 0.26699
+Epoch 13 - iter 209/352 - 10% Avg loss 0.26577
+Epoch 13 - iter 244/352 - 10% Avg loss 0.26892
+Epoch 13 - iter 279/352 - 10% Avg loss 0.25855
+Epoch 13 - iter 314/352 - 10% Avg loss 0.26637
+Epoch 13 - iter 349/352 - 10% Avg loss 0.26737
+Epoch #13: Epoch Average Loss 0.25654 - Epoch Acc: 90.87111 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.55it/s]
+Eval Devset: Epoch #13: Average Loss 0.23995 - Epoch Acc: 85.36000 - Epoch Testing Time: 0.073 min(s)
+Saving new best-model with accuracy: 85.3600
+----------------------------------------------------------------------------------------------------
+Epoch 14 - iter 34/352 - 10% Avg loss 0.21091
+Epoch 14 - iter 69/352 - 10% Avg loss 0.21838
+Epoch 14 - iter 104/352 - 10% Avg loss 0.22884
+Epoch 14 - iter 139/352 - 10% Avg loss 0.21799
+Epoch 14 - iter 174/352 - 10% Avg loss 0.24938
+Epoch 14 - iter 209/352 - 10% Avg loss 0.25396
+Epoch 14 - iter 244/352 - 10% Avg loss 0.24290
+Epoch 14 - iter 279/352 - 10% Avg loss 0.22392
+Epoch 14 - iter 314/352 - 10% Avg loss 0.24570
+Epoch 14 - iter 349/352 - 10% Avg loss 0.23521
+Epoch #14: Epoch Average Loss 0.23304 - Epoch Acc: 91.73111 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.49it/s]
+Eval Devset: Epoch #14: Average Loss 0.23016 - Epoch Acc: 86.30000 - Epoch Testing Time: 0.074 min(s)
+Saving new best-model with accuracy: 86.3000
+----------------------------------------------------------------------------------------------------
+Epoch 15 - iter 34/352 - 10% Avg loss 0.20260
+Epoch 15 - iter 69/352 - 10% Avg loss 0.19644
+Epoch 15 - iter 104/352 - 10% Avg loss 0.22411
+Epoch 15 - iter 139/352 - 10% Avg loss 0.20885
+Epoch 15 - iter 174/352 - 10% Avg loss 0.21767
+Epoch 15 - iter 209/352 - 10% Avg loss 0.21908
+Epoch 15 - iter 244/352 - 10% Avg loss 0.22475
+Epoch 15 - iter 279/352 - 10% Avg loss 0.21751
+Epoch 15 - iter 314/352 - 10% Avg loss 0.21499
+Epoch 15 - iter 349/352 - 10% Avg loss 0.22610
+Epoch #15: Epoch Average Loss 0.21492 - Epoch Acc: 92.43556 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.53it/s]
+Eval Devset: Epoch #15: Average Loss 0.24020 - Epoch Acc: 84.80000 - Epoch Testing Time: 0.074 min(s)
+
+Bad Epoch. Total num bad epoch: 1
+----------------------------------------------------------------------------------------------------
+Epoch 16 - iter 34/352 - 10% Avg loss 0.20122
+Epoch 16 - iter 69/352 - 10% Avg loss 0.18511
+Epoch 16 - iter 104/352 - 10% Avg loss 0.19671
+Epoch 16 - iter 139/352 - 10% Avg loss 0.19385
+Epoch 16 - iter 174/352 - 10% Avg loss 0.17712
+Epoch 16 - iter 209/352 - 10% Avg loss 0.21589
+Epoch 16 - iter 244/352 - 10% Avg loss 0.20505
+Epoch 16 - iter 279/352 - 10% Avg loss 0.20439
+Epoch 16 - iter 314/352 - 10% Avg loss 0.19637
+Epoch 16 - iter 349/352 - 10% Avg loss 0.20327
+Epoch #16: Epoch Average Loss 0.19790 - Epoch Acc: 92.98667 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.52it/s]
+Eval Devset: Epoch #16: Average Loss 0.22926 - Epoch Acc: 86.20000 - Epoch Testing Time: 0.074 min(s)
+
+Bad Epoch. Total num bad epoch: 2
+----------------------------------------------------------------------------------------------------
+Epoch 17 - iter 34/352 - 10% Avg loss 0.17854
+Epoch 17 - iter 69/352 - 10% Avg loss 0.18095
+Epoch 17 - iter 104/352 - 10% Avg loss 0.18676
+Epoch 17 - iter 139/352 - 10% Avg loss 0.17652
+Epoch 17 - iter 174/352 - 10% Avg loss 0.19462
+Epoch 17 - iter 209/352 - 10% Avg loss 0.20488
+Epoch 17 - iter 244/352 - 10% Avg loss 0.18345
+Epoch 17 - iter 279/352 - 10% Avg loss 0.19856
+Epoch 17 - iter 314/352 - 10% Avg loss 0.20047
+Epoch 17 - iter 349/352 - 10% Avg loss 0.19229
+Epoch #17: Epoch Average Loss 0.19000 - Epoch Acc: 93.36444 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.52it/s]
+Eval Devset: Epoch #17: Average Loss 0.24177 - Epoch Acc: 85.70000 - Epoch Testing Time: 0.074 min(s)
+
+Bad Epoch. Total num bad epoch: 3
+----------------------------------------------------------------------------------------------------
+Epoch 18 - iter 34/352 - 10% Avg loss 0.15889
+Epoch 18 - iter 69/352 - 10% Avg loss 0.15859
+Epoch 18 - iter 104/352 - 10% Avg loss 0.16149
+Epoch 18 - iter 139/352 - 10% Avg loss 0.18137
+Epoch 18 - iter 174/352 - 10% Avg loss 0.17557
+Epoch 18 - iter 209/352 - 10% Avg loss 0.18642
+Epoch 18 - iter 244/352 - 10% Avg loss 0.17231
+Epoch 18 - iter 279/352 - 10% Avg loss 0.16750
+Epoch 18 - iter 314/352 - 10% Avg loss 0.18352
+Epoch 18 - iter 349/352 - 10% Avg loss 0.17406
+Epoch #18: Epoch Average Loss 0.17209 - Epoch Acc: 93.93111 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:05<00:00,  3.95it/s]
+Eval Devset: Epoch #18: Average Loss 0.23197 - Epoch Acc: 86.96000 - Epoch Testing Time: 0.084 min(s)
+Saving new best-model with accuracy: 86.9600
+----------------------------------------------------------------------------------------------------
+Epoch 19 - iter 34/352 - 10% Avg loss 0.13784
+Epoch 19 - iter 69/352 - 10% Avg loss 0.14534
+Epoch 19 - iter 104/352 - 10% Avg loss 0.15804
+Epoch 19 - iter 139/352 - 10% Avg loss 0.15332
+Epoch 19 - iter 174/352 - 10% Avg loss 0.16911
+Epoch 19 - iter 209/352 - 10% Avg loss 0.15731
+Epoch 19 - iter 244/352 - 10% Avg loss 0.16811
+Epoch 19 - iter 279/352 - 10% Avg loss 0.16277
+Epoch 19 - iter 314/352 - 10% Avg loss 0.15968
+Epoch 19 - iter 349/352 - 10% Avg loss 0.19935
+Epoch #19: Epoch Average Loss 0.16136 - Epoch Acc: 94.29333 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.06it/s]
+Eval Devset: Epoch #19: Average Loss 0.24781 - Epoch Acc: 85.60000 - Epoch Testing Time: 0.082 min(s)
+
+Bad Epoch. Total num bad epoch: 1
+----------------------------------------------------------------------------------------------------
+Epoch 20 - iter 34/352 - 10% Avg loss 0.15228
+Epoch 20 - iter 69/352 - 10% Avg loss 0.13902
+Epoch 20 - iter 104/352 - 10% Avg loss 0.12759
+Epoch 20 - iter 139/352 - 10% Avg loss 0.15028
+Epoch 20 - iter 174/352 - 10% Avg loss 0.15141
+Epoch 20 - iter 209/352 - 10% Avg loss 0.14815
+Epoch 20 - iter 244/352 - 10% Avg loss 0.16792
+Epoch 20 - iter 279/352 - 10% Avg loss 0.16372
+Epoch 20 - iter 314/352 - 10% Avg loss 0.16430
+Epoch 20 - iter 349/352 - 10% Avg loss 0.15691
+Epoch #20: Epoch Average Loss 0.15184 - Epoch Acc: 94.62222 - Epoch Training Time: 1.2 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.51it/s]
+Eval Devset: Epoch #20: Average Loss 0.23183 - Epoch Acc: 87.42000 - Epoch Testing Time: 0.074 min(s)
+Saving new best-model with accuracy: 87.4200
+----------------------------------------------------------------------------------------------------
+Epoch 21 - iter 34/352 - 10% Avg loss 0.13568
+Epoch 21 - iter 69/352 - 10% Avg loss 0.13436
+Epoch 21 - iter 104/352 - 10% Avg loss 0.13546
+Epoch 21 - iter 139/352 - 10% Avg loss 0.13565
+Epoch 21 - iter 174/352 - 10% Avg loss 0.15628
+Epoch 21 - iter 209/352 - 10% Avg loss 0.12675
+Epoch 21 - iter 244/352 - 10% Avg loss 0.14283
+Epoch 21 - iter 279/352 - 10% Avg loss 0.15283
+Epoch 21 - iter 314/352 - 10% Avg loss 0.16611
+Epoch 21 - iter 349/352 - 10% Avg loss 0.14040
+Epoch #21: Epoch Average Loss 0.14267 - Epoch Acc: 94.89556 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.11it/s]
+Eval Devset: Epoch #21: Average Loss 0.24301 - Epoch Acc: 87.02000 - Epoch Testing Time: 0.081 min(s)
+
+Bad Epoch. Total num bad epoch: 1
+----------------------------------------------------------------------------------------------------
+Epoch 22 - iter 34/352 - 10% Avg loss 0.10805
+Epoch 22 - iter 69/352 - 10% Avg loss 0.11089
+Epoch 22 - iter 104/352 - 10% Avg loss 0.11522
+Epoch 22 - iter 139/352 - 10% Avg loss 0.13364
+Epoch 22 - iter 174/352 - 10% Avg loss 0.12474
+Epoch 22 - iter 209/352 - 10% Avg loss 0.13643
+Epoch 22 - iter 244/352 - 10% Avg loss 0.15095
+Epoch 22 - iter 279/352 - 10% Avg loss 0.14235
+Epoch 22 - iter 314/352 - 10% Avg loss 0.13208
+Epoch 22 - iter 349/352 - 10% Avg loss 0.14750
+Epoch #22: Epoch Average Loss 0.13051 - Epoch Acc: 95.37778 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.50it/s]
+Eval Devset: Epoch #22: Average Loss 0.21639 - Epoch Acc: 88.22000 - Epoch Testing Time: 0.074 min(s)
+Saving new best-model with accuracy: 88.2200
+----------------------------------------------------------------------------------------------------
+Epoch 23 - iter 34/352 - 10% Avg loss 0.09193
+Epoch 23 - iter 69/352 - 10% Avg loss 0.10041
+Epoch 23 - iter 104/352 - 10% Avg loss 0.11531
+Epoch 23 - iter 139/352 - 10% Avg loss 0.10226
+Epoch 23 - iter 174/352 - 10% Avg loss 0.12423
+Epoch 23 - iter 209/352 - 10% Avg loss 0.13659
+Epoch 23 - iter 244/352 - 10% Avg loss 0.12276
+Epoch 23 - iter 279/352 - 10% Avg loss 0.14351
+Epoch 23 - iter 314/352 - 10% Avg loss 0.12892
+Epoch 23 - iter 349/352 - 10% Avg loss 0.12715
+Epoch #23: Epoch Average Loss 0.11922 - Epoch Acc: 95.79778 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.57it/s]
+Eval Devset: Epoch #23: Average Loss 0.22480 - Epoch Acc: 87.80000 - Epoch Testing Time: 0.073 min(s)
+
+Bad Epoch. Total num bad epoch: 1
+----------------------------------------------------------------------------------------------------
+Epoch 24 - iter 34/352 - 10% Avg loss 0.10701
+Epoch 24 - iter 69/352 - 10% Avg loss 0.10611
+Epoch 24 - iter 104/352 - 10% Avg loss 0.10836
+Epoch 24 - iter 139/352 - 10% Avg loss 0.10070
+Epoch 24 - iter 174/352 - 10% Avg loss 0.11467
+Epoch 24 - iter 209/352 - 10% Avg loss 0.10660
+Epoch 24 - iter 244/352 - 10% Avg loss 0.12077
+Epoch 24 - iter 279/352 - 10% Avg loss 0.12828
+Epoch 24 - iter 314/352 - 10% Avg loss 0.12362
+Epoch 24 - iter 349/352 - 10% Avg loss 0.12528
+Epoch #24: Epoch Average Loss 0.11396 - Epoch Acc: 96.01111 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.49it/s]
+Eval Devset: Epoch #24: Average Loss 0.24306 - Epoch Acc: 87.22000 - Epoch Testing Time: 0.074 min(s)
+
+Bad Epoch. Total num bad epoch: 2
+----------------------------------------------------------------------------------------------------
+Epoch 25 - iter 34/352 - 10% Avg loss 0.09820
+Epoch 25 - iter 69/352 - 10% Avg loss 0.10490
+Epoch 25 - iter 104/352 - 10% Avg loss 0.10238
+Epoch 25 - iter 139/352 - 10% Avg loss 0.09793
+Epoch 25 - iter 174/352 - 10% Avg loss 0.11056
+Epoch 25 - iter 209/352 - 10% Avg loss 0.10778
+Epoch 25 - iter 244/352 - 10% Avg loss 0.10870
+Epoch 25 - iter 279/352 - 10% Avg loss 0.10797
+Epoch 25 - iter 314/352 - 10% Avg loss 0.09435
+Epoch 25 - iter 349/352 - 10% Avg loss 0.10022
+Epoch #25: Epoch Average Loss 0.10350 - Epoch Acc: 96.31333 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.59it/s]
+Eval Devset: Epoch #25: Average Loss 0.23091 - Epoch Acc: 87.82000 - Epoch Testing Time: 0.073 min(s)
+
+Bad Epoch. Total num bad epoch: 3
+----------------------------------------------------------------------------------------------------
+Epoch 26 - iter 34/352 - 10% Avg loss 0.10540
+Epoch 26 - iter 69/352 - 10% Avg loss 0.09361
+Epoch 26 - iter 104/352 - 10% Avg loss 0.08540
+Epoch 26 - iter 139/352 - 10% Avg loss 0.10269
+Epoch 26 - iter 174/352 - 10% Avg loss 0.10238
+Epoch 26 - iter 209/352 - 10% Avg loss 0.10535
+Epoch 26 - iter 244/352 - 10% Avg loss 0.09567
+Epoch 26 - iter 279/352 - 10% Avg loss 0.09918
+Epoch 26 - iter 314/352 - 10% Avg loss 0.09915
+Epoch 26 - iter 349/352 - 10% Avg loss 0.08938
+Epoch #26: Epoch Average Loss 0.09778 - Epoch Acc: 96.50222 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.49it/s]
+Eval Devset: Epoch #26: Average Loss 0.23077 - Epoch Acc: 88.24000 - Epoch Testing Time: 0.074 min(s)
+
+Bad Epoch. Total num bad epoch: 4
+----------------------------------------------------------------------------------------------------
+Epoch 27 - iter 34/352 - 10% Avg loss 0.08010
+Epoch 27 - iter 69/352 - 10% Avg loss 0.08987
+Epoch 27 - iter 104/352 - 10% Avg loss 0.09225
+Epoch 27 - iter 139/352 - 10% Avg loss 0.08792
+Epoch 27 - iter 174/352 - 10% Avg loss 0.11672
+Epoch 27 - iter 209/352 - 10% Avg loss 0.10166
+Epoch 27 - iter 244/352 - 10% Avg loss 0.10860
+Epoch 27 - iter 279/352 - 10% Avg loss 0.11443
+Epoch 27 - iter 314/352 - 10% Avg loss 0.10288
+Epoch 27 - iter 349/352 - 10% Avg loss 0.07952
+Epoch #27: Epoch Average Loss 0.09735 - Epoch Acc: 96.56444 - Epoch Training Time: 1.1 min(s)
+----------------------------------------------------------------------------------------------------
+Evaluate on Devtset: 100% 20/20 [00:04<00:00,  4.62it/s]
+Eval Devset: Epoch #27: Average Loss 0.23527 - Epoch Acc: 87.80000 - Epoch Testing Time: 0.072 min(s)
+
+Bad Epoch. Total num bad epoch: 5
+----------------------------------------------------------------------------------------------------
+Exiting from training early. Best model score: 88.2200. Saving final model: True 
+Saving model ...
+Done.
+Evaluate on Testset: 100% 40/40 [00:09<00:00,  4.31it/s]
+Test Devset: Epoch #27: Average Loss 0.42640 - Epoch Acc: 87.54000 - Epoch Testing Time: 0.15 min(s)
