@@ -99,7 +99,7 @@ class ResNet(nn.Module):
 
 
 def ResNet18():
-    return ResNet(BasicBlock, [2, 2,1, 3])
+    return ResNet(BasicBlock, [2, 3,1, 3])
 
 if __name__ == "__main__":
     net = ResNet18()
